@@ -5,7 +5,7 @@ const CATALOG = [
     id: "socks_classic_white",
     title: "Носки Classic White",
     description: "Хлопок 80%, лайкра 20%",
-    photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Socks_white.png/320px-Socks_white.png",
+    photo: "https://w7.pngwing.com/pngs/137/936/png-transparent-sock-shoe-design.png",
     price: 990,
     sizes: ["38-40","41-43","44-46"]
   },
@@ -13,7 +13,7 @@ const CATALOG = [
     id: "socks_sport_black",
     title: "Носки Sport Black",
     description: "Дышащая вставка, усиленный мысок",
-    photo: "https://pizhon.by/assets/images/products/8497/prod/noski-chernyie.webp",
+    photo: "https://w7.pngwing.com/pngs/190/384/png-transparent-sock-socks-black-socks-art-thumbnail.png",
     price: 1290,
     sizes: ["38-40","41-43","44-46"]
   },
@@ -21,7 +21,7 @@ const CATALOG = [
     id: "socks_funny_dots",
     title: "Носки Funny Dots",
     description: "Яркий принт, подарочная упаковка",
-    photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Socks_colored.png/320px-Socks_colored.png",
+    photo: "https://i.pinimg.com/736x/af/83/e1/af83e16d84c704a88024ad78e2560ce5.jpg",
     price: 1490,
     sizes: ["36-38","39-41","42-44"]
   }
@@ -134,4 +134,5 @@ document.getElementById('checkout').onclick = () => {
 
 renderCatalog();
 renderCart();
+
 
