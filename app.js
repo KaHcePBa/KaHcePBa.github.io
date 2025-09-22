@@ -5,7 +5,7 @@ const CATALOG = [
     id: "socks_classic_white",
     title: "Носки Classic White",
     description: "Хлопок 80%, лайкра 20%",
-    photo: "https://w7.pngwing.com/pngs/137/936/png-transparent-sock-shoe-design.png",
+    photo: "https://png.pngtree.com/png-vector/20240626/ourmid/pngtree-3d-white-short-neck-socks-on-transparent-background-png-image_12790767.png",
     price: 990,
     sizes: ["38-40","41-43","44-46"]
   },
@@ -134,5 +134,6 @@ document.getElementById('checkout').onclick = () => {
 
 renderCatalog();
 renderCart();
+
 
 
