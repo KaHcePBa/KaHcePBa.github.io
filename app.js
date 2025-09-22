@@ -13,7 +13,7 @@ const CATALOG = [
     id: "socks_sport_black",
     title: "Носки Sport Black",
     description: "Дышащая вставка, усиленный мысок",
-    photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Socks_black.png/320px-Socks_black.png",
+    photo: "https://pizhon.by/assets/images/products/8497/prod/noski-chernyie.webp",
     price: 1290,
     sizes: ["38-40","41-43","44-46"]
   },
@@ -134,3 +134,4 @@ document.getElementById('checkout').onclick = () => {
 
 renderCatalog();
 renderCart();
+
